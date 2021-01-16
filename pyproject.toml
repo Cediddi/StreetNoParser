@@ -1,0 +1,6 @@
+[tool.pytest.ini_options]
+minversion = '6.2'
+addopts = '-q --cov=StreetNoParser'
+testpaths = [
+    'tests',
+]
